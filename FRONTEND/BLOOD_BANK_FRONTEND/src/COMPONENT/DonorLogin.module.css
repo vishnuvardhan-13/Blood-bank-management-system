@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rethink+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&family=Rethink+Sans:ital,wght@1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+}
+.container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_inner{
+    position: relative;
+    padding: 2px;
+    width: 100%;
+    height: 80vh;
+    max-width: 642px;
+    background-color: #fff;
+}
+.header{
+    color: green;
+    margin-left: 90px;
+}
+.b{ 
+    display: flex;
+    background-color: red;
+}
+.wrong_button{
+    font-size: 30px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    position: relative;
+    bottom: 10px;
+    left: 530px;
+}
+.box{
+    margin-top: 100px;
+    display: grid;
+    padding: 40px;
+    grid-template-columns: 200px 300px;
+    border: 1px solid black;
+    border-radius: 18px;
+    gap: 50px;
+}
+.dont_show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eye{
+    background-color: grey;
+    height: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.submitButton{
+    height: 40px;
+    background-color: red;
+}
+.username{
+    display: flex;
+}
+input{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.forgotPass{
+    color: #0000EE;;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.confyPass{
+display: flex;
+flex-direction: column;
+}
+.passWrong{
+    color: red;
+    text-decoration: none;
+}
+.error{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    color: red;
+    text-decoration: none;
+}
+.donor_popup{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donor_popup_inner{
+    position: relative;
+    padding: 80px;
+    width: 100%;
+    max-width: 642px;
+    background-color: #fff;
+}
+.donor_close_button{
+    position: absolute;
+    top: 100px;
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    border-radius: 18px;
+}
+.donor_cancel{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    border-radius: 18px;
+}
+.donor_child{
+    position: relative;
+    bottom: 70px;
+    left: 60px;
+}
+.close_button{
+        position: absolute;
+        top: 100px;
+        right: 250px;
+        background-color: green;
+        width: 100px;
+        height: 50px;
+        border-radius: 18px;
+}
+.donor_popup{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donor_popup_inner{
+    position: relative;
+    padding: 80px;
+    width: 100%;
+    max-width: 642px;
+    background-color: #fff;
+}
+.donor_delete_popup{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.donor_delete_button{
+    background-color: green;
+    width: 80%;
+    height: 50px;
+    border-radius: 18px;
+}
+textarea{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,26 @@
+.blood_table{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    text-align: center;
+}
+.blood_header th{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #faedcd;
+}
+.blood_count td{
+    padding: 20px;
+    border: 1px solid black;
+}
+.blood_count input{
+    border: 1px solid transparent;
+}
+.blood_update{
+    margin-top: 20px;
+    width: 80%;
+    height: 70px;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    background-color: #003049;
+}

@@ -1,0 +1,139 @@
+
+.patient_table{
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 900px;
+}
+@media screen and (max-width:800px){
+    .patient_table{
+        width: 500px;
+    }
+}
+.request{
+    border: 1px solid transparent;
+    border-radius: 18px;
+    background-color: green;
+    padding: 10px;
+}
+.container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_inner{
+    position: relative;
+    padding: 80px;
+    width: 100%;
+    max-width: 642px;
+    background-color: #fff;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.b{
+    display: flex;
+}
+.wrong_button{
+    font-size: 30px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    position: relative;
+    bottom: 20px;
+    left: 98%;
+}
+.box{
+    margin-top: 10px;
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 120px 280px;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 18px;
+    padding: 20px;
+}
+.pat_personal_details{
+    width: 145px;
+    position: relative;
+    bottom: 400px;
+    left: 30px;
+    background-color: #fff;
+}
+.pat_address{
+    width: 70px;
+    position: relative;
+    bottom: 250px;
+    left: 30px;
+    background-color: #fff;
+}
+.bb_personal_details{
+    width: 166px;
+    position: relative;
+    bottom: 330px;
+    left: 30px;
+    background-color: #fff;
+}
+.bb_postal_details{
+    width: 134px;
+    position: relative;
+    bottom: 188px;
+    left: 30px;
+    background-color: #fff;
+}
+.bb_emp_details{
+    width: 141px;
+    position: relative;
+    bottom: 325px;
+    left: 30px;
+    background-color: #fff;
+}
+.blood_table th{
+    padding: 20px;
+    border: 1px solid black;
+    background-color:#e9d8a6 ;
+}
+.blood_table td{
+    border: 1px solid black;
+    background-color: #e63946;
+}
+.deleted_data{
+    position: absolute;
+
+}
+.deleted_table{
+    padding: 10px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 900px;
+}
+@media screen and (max-width:800px){
+    .deleted_table{
+        width: 500px;
+    }
+}
+.deleted_table h2{
+    margin-top: 20px;
+}
+.message{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 30px;
+}
+.remove
+{
+    width: 80%;
+    height: 10%;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 18px;
+    background-color: #e63946;
+}

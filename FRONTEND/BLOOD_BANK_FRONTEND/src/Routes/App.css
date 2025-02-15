@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rethink+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@300&family=Rethink+Sans:ital,wght@1,500&display=swap');
+
+body.active-modal{
+  overflow-y: hidden;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rethink Sans', sans-serif;
+}
+.navbar{
+  background-color: #ff0a54;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: fixed;
+}
+.logo{
+  width: 30%;
+}
+.logo img{
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+  height: 80px;
+}
+.dashboard{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.dash_button{
+  width: 100px;
+  height: 80px;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.dash_button:active{
+  width: 70%;
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.menu_button{
+  width: 20%;
+  display: none;
+}
+.menu_comp_button{
+  font-size: 30px;
+  border: 1px solid transparent;
+  background-color: transparent;
+}
+.main{
+  padding:140px 0px 140px 0px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-image: url("home_page_logo.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+.main button{
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 18px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.footer{
+  width: 100%;
+  height: 200px;
+  background-color: red;
+}
+
+@media screen and (max-width:800px){
+  .navbar{
+      justify-content: space-between;
+  }
+  .logo{
+      width: 50%;
+  }
+  .dashboard{
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    width: 300px;
+    height: 60vh;
+    background-color: #ff0a54;
+  }
+  .active{
+    background-color: white;
+    color: white;
+    border: 1px solid transparent;
+    width: 0px;
+    height: 0px;
+  }
+  .dash_button{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+  }
+  .dash_button:active{
+    width: 100%;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  .menu_button{
+    display: inline-block;
+  }
+  .main button{
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 18px;
+  }
+}
+
+
